@@ -1,0 +1,182 @@
+
+
+	@import url('https://fonts.googleapis.com/css?family=Raleway');
+	
+	
+	html, h1, h2, h3, h4, h5, h6, a{
+		font-family: "Raleway";
+	
+	}
+
+
+		.navbar{ background: #CC2027;}
+		.nav-link, .navbar-brand{ color: #F4F4F4; cursor: pointer;}
+		.nav-link{ margin-right: 1em;}
+		.nav-link:hover{background: #CC2027; color: #f97300;}
+		.navbar-collapse{ justify-content: flex-end;}
+		.navbar-toggler{ background:#fff;}
+
+
+/* Overide Jumbotron's color */
+        .jumbotron {
+    background-color: #CC2027;
+        }
+		
+	.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+	position:relative;
+    height:0;
+    }
+    .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }	
+		
+		
+		
+	.btn-linkedin {
+	  background: #007BB5;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
+	}
+	
+	.btn-twitter {
+	  background: #1DA1F2;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	.btn-twitter:link, .btn-twitter:visited {
+	  color: #fff;
+	}
+	.btn-twitter:active, .btn-twitter:hover {
+	  background: #084461;
+	  color: #fff;
+	}
+	
+	.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;	
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #084461;
+	  color: #fff;
+	}	
+	
+	.contact-form{
+		margin: 6em 0;
+		position: relative;
+	}
+	
+	.contact-form h1{
+		padding: 2em 1px;
+		color: #CC2027;
+	}
+	
+	.contact-form .right .btn-secondary{
+		background: #CC2027;
+		color: #fff;
+		border: 0;
+	}
+	
+	.address h1{
+		
+		color: #CC2027;
+	}
+	
+	.btnCall{
+		padding:20px;
+		background-color: #CC2027;
+	}
+	
+	.glyphicon{
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+	
+.twitter-timeline 
+{
+  max-width: 100%;
+  max-height: 2000px;
+}
+
+
+.panel-title {
+ font-size: 25px; 
+ color: #FFFFFF;
+ font-family: 'Open Sans', sans-serif;
+}
+
+.panel-heading {
+ background-color: #1da1f2 !important;;
+ color: #1da1f2 !important;;
+}
+
+.panel {
+ margin-top: 25px;
+}
+
+
+
+.home{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+}

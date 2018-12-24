@@ -1,0 +1,325 @@
+
+
+
+	@import url('https://fonts.googleapis.com/css?family=Raleway');
+	
+	
+	html, h1, h2, h3, h4, h5, h6, a{
+		font-family: "Raleway";
+	
+	}
+
+
+		.navbar{ background: #CC2027;}
+		.nav-link, .navbar-brand{ color: #F4F4F4; cursor: pointer;}
+		.nav-link{ margin-right: 1em;}
+		.nav-link:hover{background: #CC2027; color: #f97300;}
+		.navbar-collapse{ justify-content: flex-end;}
+		.navbar-toggler{ background:#fff;}
+
+
+/* Overide Jumbotron's color */
+        .jumbotron {
+    background-color: #CC2027;
+        }
+		
+	.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+	position:relative;
+    height:0;
+    }
+    .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }	
+		
+		
+		
+	.btn-linkedin {
+	  background: #007BB5;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
+	}
+	
+	.btn-twitter {
+	  background: #1DA1F2;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	.btn-twitter:link, .btn-twitter:visited {
+	  color: #fff;
+	}
+	.btn-twitter:active, .btn-twitter:hover {
+	  background: #084461;
+	  color: #fff;
+	}
+	
+	.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;	
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #084461;
+	  color: #fff;
+	}	
+	
+	.contact-form{
+		margin: 6em 0;
+		position: relative;
+	}
+	
+	.contact-form h1{
+		padding: 2em 1px;
+		color: #CC2027;
+	}
+	
+	.contact-form .right .btn-secondary{
+		background: #CC2027;
+		color: #fff;
+		border: 0;
+	}
+	
+	.address h1{
+		
+		color: #CC2027;
+	}
+	
+	.btnCall{
+		padding:20px;
+		background-color: #CC2027;
+	}
+	
+	.glyphicon{
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+	
+.twitter-timeline 
+{
+  max-width: 100%;
+  max-height: 1000px;
+}
+
+
+.panel-title {
+ font-size: 25px; 
+ color: #FFFFFF;
+ font-family: 'Open Sans', sans-serif;
+}
+
+.panel-heading {
+ background-color: #1da1f2 !important;;
+ color: #1da1f2 !important;;
+}
+
+.panel {
+ margin-top: 25px;
+}
+	
+html { 
+	background: #222
+}
+
+body {
+	font-size: 14px;
+	font-family: 'PT Sans';
+	line-height: 1.5;
+}
+
+a {
+	color: #0088cc;
+	text-decoration: none;
+	outline: 0
+}
+
+a:hover,
+a:focus {
+	color: #005580
+}
+
+#setting {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	color: #f64c3f;
+	cursor: pointer
+}
+
+#form {
+	position: fixed;
+	left: 50px;
+	top: 10px;
+	background: rgba(0,0,0,.8);
+	padding: 10px;
+	display: none
+}
+
+#form input {
+	border: 0px;
+	padding: 5px;
+	margin-bottom: 5px
+}
+
+#form #go {
+	float: right;
+	background: #f64c3f;
+	color: #fff
+}
+
+#form.show {
+	display: block
+}
+
+#feed {
+	width: auto;
+	max-width: 400px;
+	margin: 50px auto
+}
+
+.post {
+	background: #fff;
+	color: #1a1c21;
+	width: 100%;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+}
+
+.post .content {
+	padding: 15px;
+}
+
+.post .left {
+    float: left;
+    margin-right: 10px;
+}
+
+.post .left .fa {
+    display: block;
+	width: 48px;
+	border-radius: 50%;
+	font-size: 3em
+}
+
+.post .right {
+    overflow: hidden;
+    *overflow: visible;
+}
+
+.post .right .top {
+	min-height: 20px;
+}
+
+.post .right .top .user {
+	color: #1a1c21;
+	font-weight: 700
+}
+
+.post .right .top .date {
+    float: right;
+    margin-left: 10px;
+	color: #8b99a0;
+	font-size: 12px;
+}
+
+.post .right .bottom {
+	margin-top: 15px;
+}
+
+.post .media {
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	border: 0px;
+	margin-top: 5px;
+}
+
+.post.facebook .left .fa {
+	color: #335591
+}
+
+.post.google .left .fa {
+	color: #d34836
+}
+
+.post.vk .left .fa {
+	color: #38618F
+}
+
+.post.twitter .left .fa {
+	color: #3D8FAB
+}
+
+.post.soundcloud .left .fa {
+	color: orange
+}
+
+.post.github .left .fa {
+	color: #333
+}
+
+.post.instagram .left .fa {
+	color: #8a3ab9
+}
+
+.post.youtube .left .fa {
+	color: #e52d27
+}	
+	
